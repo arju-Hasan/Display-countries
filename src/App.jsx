@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-    <Suspense fallback={<h1>Loading...</h1>}>
+    <Suspense fallback={<h1 className='text-center font-bold text-2xl p-4 m-4'>Nadir vai loading...</h1>}>
       <Countries countriesPromise={countriesPromise}></Countries>
     
     </Suspense>
