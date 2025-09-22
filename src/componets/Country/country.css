@@ -1,0 +1,16 @@
+.country{
+    text-align: center;
+    color: blue;
+    border: 2px solid red;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.not-visited-btn{
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
