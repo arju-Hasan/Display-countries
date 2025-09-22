@@ -1,7 +1,7 @@
 import { Suspense, useState } from 'react'
 import './App.css'
 import Countries from './componets/countries/countries'
-import Country from './componets/Country/country'
+
 
 
 
@@ -18,7 +18,7 @@ function App() {
     <>
     <Suspense fallback={<h1>Loading...</h1>}>
       <Countries countriesPromise={countriesPromise}></Countries>
-      <Country country={country}></Country>
+    
     </Suspense>
 
     </>
