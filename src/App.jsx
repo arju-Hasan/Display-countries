@@ -1,13 +1,17 @@
 import { useState } from 'react'
-
 import './App.css'
+import Countries from './componets/countries/countries'
+
 
 function App() {
 
 
   return (
     <>
-      <h1 className='text-2xl font-bold'>this is a country display app</h1>
+      <Countries></Countries>
+    
+       
+     
 
     </>
   )
